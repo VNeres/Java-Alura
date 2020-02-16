@@ -28,6 +28,14 @@ public class TesteWrapperInteger {
 		Integer iParseado1 = Integer.valueOf("42");//parseando e devolvendo referência
 		int iParseado2 = Integer.parseInt("44"); //parseando e devolvendo primitivo
 		
+		System.out.println(iParseado1);// 42
+		System.out.println(iParseado2);//44
+		
+		System.out.println(Integer.MAX_VALUE);//2^31 - 1
+		System.out.println(Integer.MIN_VALUE);//-2^31
+		
+		System.out.println(Integer.SIZE); //32 bits
+		System.out.println(Integer.BYTES);// 4 bytes
 	}
 
 }
